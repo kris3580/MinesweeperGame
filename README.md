@@ -16,9 +16,14 @@ Proiect în care se declară structurile conceptuale ale jocului Minesweeper.
 * `Random` răspunde de generarea numerelor aleatoare utilizate pentru a determina unde se vor apărea bombele pe tabel.
 * `Timer` gestionează cronometrul jocului (pornirea, oprirea, resetarea acestuia).
 * `Difficulty` duce cont de dificultățile pe care jocului poate să le aibă (mărimea tabelului, numărul de bombe) și care din acestea este selectată
-* `Cell` gestionează o oarecare celulă, și anume poziția acesteia pe tablă și tipul acesteia.
+* `Cell` gestionează poziția unei oarecare celule pe tablă.
 * `Grids` gestionează tabelele, și anume cel văzut de jucător și cel generat dinainte. Răspunde de generarea și resetarea tabelelor, dezvăluirea pătrățelelor, verificarea apăsării unei bombe etc.
 * `GameEngine` răspunde de inițializarea și rularea jocului.
+* `GridSize` este structura utilizată pentru a defini mărimea unui grid în dependență de dificultatea aleasă.
+* `DifficultyType` este un enum care va indica tipul dificultății alese.
+* `GameState` este un enum care va indica starea jocului la moment.
+* `CellType` este un enum folosit pentru a indica tipul unui pătrățel.
+
 
 
 
