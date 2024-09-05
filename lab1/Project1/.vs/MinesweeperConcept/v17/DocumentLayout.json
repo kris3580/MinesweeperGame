@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\GameEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\GameEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Grids.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Grids.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Random.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Random.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Cell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\GameEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\GameEngine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Difficulty.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Difficulty.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\CellType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\CellType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\DifficultyType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\DifficultyType.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\GridSize.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\GridSize.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Random.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Random.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A33D7E70-48C5-4C9F-9E6F-82CDF2DDA3F7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Timer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +58,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Input.h",
               "DocumentMoniker": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Input.h",
               "RelativeDocumentMoniker": "Project1\\Input.h",
@@ -60,13 +76,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
+              "Title": "GridSize.h",
+              "DocumentMoniker": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\GridSize.h",
+              "RelativeDocumentMoniker": "Project1\\GridSize.h",
+              "ToolTip": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\GridSize.h",
+              "RelativeToolTip": "Project1\\GridSize.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-05T16:17:36.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DifficultyType.h",
+              "DocumentMoniker": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\DifficultyType.h",
+              "RelativeDocumentMoniker": "Project1\\DifficultyType.h",
+              "ToolTip": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\DifficultyType.h",
+              "RelativeToolTip": "Project1\\DifficultyType.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-05T16:15:29.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameState.h",
+              "DocumentMoniker": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\GameState.h",
+              "RelativeDocumentMoniker": "Project1\\GameState.h",
+              "ToolTip": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\GameState.h",
+              "RelativeToolTip": "Project1\\GameState.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-05T16:12:33.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CellType.h",
+              "DocumentMoniker": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\CellType.h",
+              "RelativeDocumentMoniker": "Project1\\CellType.h",
+              "ToolTip": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\CellType.h",
+              "RelativeToolTip": "Project1\\CellType.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-05T16:10:03.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Difficulty.h",
               "DocumentMoniker": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Difficulty.h",
               "RelativeDocumentMoniker": "Project1\\Difficulty.h",
               "ToolTip": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Difficulty.h",
               "RelativeToolTip": "Project1\\Difficulty.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-05T11:50:49.683Z",
               "EditorCaption": ""
@@ -79,14 +147,14 @@
               "RelativeDocumentMoniker": "Project1\\Grids.h",
               "ToolTip": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Grids.h",
               "RelativeToolTip": "Project1\\Grids.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-05T11:44:52.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Random.h",
               "DocumentMoniker": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Random.h",
               "RelativeDocumentMoniker": "Project1\\Random.h",
@@ -94,37 +162,38 @@
               "RelativeToolTip": "Project1\\Random.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-05T10:46:11.225Z"
+              "WhenOpened": "2024-09-05T10:46:11.225Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Cell.h",
               "DocumentMoniker": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Cell.h",
               "RelativeDocumentMoniker": "Project1\\Cell.h",
               "ToolTip": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Cell.h",
               "RelativeToolTip": "Project1\\Cell.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-05T10:42:17.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "GameEngine.h",
               "DocumentMoniker": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\GameEngine.h",
               "RelativeDocumentMoniker": "Project1\\GameEngine.h",
               "ToolTip": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\GameEngine.h",
               "RelativeToolTip": "Project1\\GameEngine.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-05T12:53:34.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Timer.h",
               "DocumentMoniker": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Timer.h",
               "RelativeDocumentMoniker": "Project1\\Timer.h",
@@ -132,17 +201,18 @@
               "RelativeToolTip": "Project1\\Timer.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-05T12:04:11.47Z"
+              "WhenOpened": "2024-09-05T12:04:11.47Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Game.h",
               "RelativeDocumentMoniker": "Project1\\Game.h",
               "ToolTip": "C:\\Users\\kris\\Desktop\\MinesweeperGame\\lab1\\Project1\\Project1\\Game.h",
               "RelativeToolTip": "Project1\\Game.h",
-              "ViewState": "AQIAAAoAAAAAAAAAAIAwwAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-05T12:47:25.896Z",
               "EditorCaption": ""

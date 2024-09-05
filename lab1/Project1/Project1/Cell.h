@@ -6,7 +6,4 @@ struct Cell
 	int y;
 };
 
-enum class CellType
-{
-	Flagged, WrongfullyFlagged, Number, Bomb, Checked, Unchecked
-};
+

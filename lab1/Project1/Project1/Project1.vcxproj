@@ -129,9 +129,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Cell.h" />
+    <ClInclude Include="CellType.h" />
     <ClInclude Include="Difficulty.h" />
+    <ClInclude Include="DifficultyType.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GridSize.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="Random.h" />
     <ClInclude Include="Grids.h" />

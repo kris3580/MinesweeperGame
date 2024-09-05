@@ -5,12 +5,15 @@
 
 class GameEngine {
 	
-	Game _game;
-	Input _input;
+	Game game;
+
+	Input input;
 	
 
 public:
 	GameEngine();
+
 	void Init();
+
 	void Run();
 };

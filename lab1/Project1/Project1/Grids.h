@@ -1,5 +1,7 @@
 #pragma once
 #include "Cell.h"
+#include "CellType.h"
+
 
 class Grids 
 {
@@ -21,7 +23,6 @@ class Grids
 
 
 public:
-
 	void ResetGrid(CellType** grid);
 
 	void GenerateGrid();

@@ -1,16 +1,17 @@
 #pragma once
 #include "Grids.h"
 #include "Timer.h"
+#include "GameState.h"
+
 class Game 
 {
-
 
 public:
 	GameState gameState;
 
-	Grids _grids;
+	Grids grids;
 
-	Timer _timer;
+	Timer timer;
 
 
 	void ShowWinScreen();
@@ -25,6 +26,3 @@ public:
 
 };
 
-enum class GameState {
-	Win, Loss, Ongoing
-};

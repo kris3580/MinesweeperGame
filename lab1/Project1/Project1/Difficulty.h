@@ -1,22 +1,12 @@
 #pragma once
+#include "DifficultyType.h"
+#include "GridSize.h"
 
 class Difficulty
 {
-
-	enum class DifficultyType
-	{
-		Easy, Medium, Hard
-	};
-
 	DifficultyType currentDifficulty;
 
 	int* bombsPerDifficulty;
-
-	struct GridSize 
-	{
-		int width;
-		int height;
-	};
 
 	GridSize* gridSizePerDifficulty;
 
