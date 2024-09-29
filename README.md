@@ -1,5 +1,5 @@
 # MinesweeperGame
-Proiect în care se declară structurile conceptuale ale jocului Minesweeper.
+Jocul Minesweeper în consolă Visual Studio în C++
 
 ### Reguli:
 * Se dă un tabel de pătrățele pustii. La apăsarea unuia dintre pătrățele se vor divulga ce este în spatele acestuia. 
@@ -21,6 +21,6 @@ Proiect în care se declară structurile conceptuale ale jocului Minesweeper.
 * `GameState` este un enum care va indica starea jocului la moment.
 * `State` este o clasă statică care ține cont de starea jocului la moment.
 * `CellType` este un enum folosit pentru a indica tipul unui pătrățel.
-* `ConsoleColors` este o clașă statică metodele cărora pot modifica culoarea textului/fundalului consolei.
+* `ConsoleColors` este o clasă statică metodele cărora pot modifica culoarea textului/fundalului consolei.
 
 
