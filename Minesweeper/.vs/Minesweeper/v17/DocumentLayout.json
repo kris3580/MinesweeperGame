@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kris\\Desktop\\Minesweeper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8226AF0C-FE39-48FB-A584-E8452BEF6F33}|Minesweeper\\Minesweeper.vcxproj|C:\\Users\\kris\\Desktop\\Minesweeper\\Minesweeper\\Minesweeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8226AF0C-FE39-48FB-A584-E8452BEF6F33}|Minesweeper\\Minesweeper.vcxproj|solutionrelative:Minesweeper\\Minesweeper.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8226AF0C-FE39-48FB-A584-E8452BEF6F33}|Minesweeper\\Minesweeper.vcxproj|C:\\Users\\kris\\Desktop\\Minesweeper\\Minesweeper\\Grids.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8226AF0C-FE39-48FB-A584-E8452BEF6F33}|Minesweeper\\Minesweeper.vcxproj|solutionrelative:Minesweeper\\Grids.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8226AF0C-FE39-48FB-A584-E8452BEF6F33}|Minesweeper\\Minesweeper.vcxproj|C:\\Users\\kris\\Desktop\\Minesweeper\\Minesweeper\\Grids.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8226AF0C-FE39-48FB-A584-E8452BEF6F33}|Minesweeper\\Minesweeper.vcxproj|solutionrelative:Minesweeper\\Grids.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Grids.h",
+              "DocumentMoniker": "C:\\Users\\kris\\Desktop\\Minesweeper\\Minesweeper\\Grids.h",
+              "RelativeDocumentMoniker": "Minesweeper\\Grids.h",
+              "ToolTip": "C:\\Users\\kris\\Desktop\\Minesweeper\\Minesweeper\\Grids.h",
+              "RelativeToolTip": "Minesweeper\\Grids.h",
+              "ViewState": "AQIAABwAAAAAAAAAAAAvwCcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-29T16:40:34.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Minesweeper.cpp",
+              "DocumentMoniker": "C:\\Users\\kris\\Desktop\\Minesweeper\\Minesweeper\\Minesweeper.cpp",
+              "RelativeDocumentMoniker": "Minesweeper\\Minesweeper.cpp",
+              "ToolTip": "C:\\Users\\kris\\Desktop\\Minesweeper\\Minesweeper\\Minesweeper.cpp",
+              "RelativeToolTip": "Minesweeper\\Minesweeper.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAvwBEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-29T13:15:58.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Grids.cpp",
+              "DocumentMoniker": "C:\\Users\\kris\\Desktop\\Minesweeper\\Minesweeper\\Grids.cpp",
+              "RelativeDocumentMoniker": "Minesweeper\\Grids.cpp",
+              "ToolTip": "C:\\Users\\kris\\Desktop\\Minesweeper\\Minesweeper\\Grids.cpp",
+              "RelativeToolTip": "Minesweeper\\Grids.cpp",
+              "ViewState": "AQIAANAAAAAAAAAAAAAvwOcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-29T12:51:46.831Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

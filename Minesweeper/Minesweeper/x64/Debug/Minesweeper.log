@@ -1,0 +1,9 @@
+﻿  Minesweeper.cpp
+C:\Users\kris\Desktop\Minesweeper\Minesweeper\Random.h(8,2): warning C4091: 'static ': ignored on left of 'Random' when no variable is declared
+  (compiling source file 'Minesweeper.cpp')
+  
+C:\Users\kris\Desktop\Minesweeper\Minesweeper\ConsoleColors.h(10,2): warning C4091: 'static ': ignored on left of 'ConsoleColors' when no variable is declared
+  (compiling source file 'Minesweeper.cpp')
+  
+C:\Users\kris\Desktop\Minesweeper\Minesweeper\Minesweeper.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Minesweeper.vcxproj -> C:\Users\kris\Desktop\Minesweeper\x64\Debug\Minesweeper.exe
