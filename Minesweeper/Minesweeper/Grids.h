@@ -4,7 +4,7 @@
 #include "Random.h"
 #include "ConsoleColors.h"
 #include "Cell.h"
-#include "Game.h"
+#include "State.h"
 
 class Grids 
 {

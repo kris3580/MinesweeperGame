@@ -229,7 +229,7 @@ void Grids::CheckForWin()
 	}
 	if (cellsChecked == cellsToCheckForReveal)
 	{
-		Game::gameState = GameState::Won;
+		State::gameState = GameState::Won;
 	}
 }
 
@@ -247,7 +247,7 @@ void Grids::ClickCell(Cell cell)
 	// on bomb hit
 	if (gridHidden[cell.x][cell.y] == CellType::Bomb)
 	{
-		Game::gameState = GameState::Lost;
+		State::gameState = GameState::Lost;
 
 		for (int i = 0; i < width; i++)
 		{

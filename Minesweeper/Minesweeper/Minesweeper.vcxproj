@@ -129,7 +129,7 @@
   <ItemGroup>
     <ClCompile Include="ConsoleColors.cpp" />
     <ClCompile Include="Difficulty.cpp" />
-    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="State.cpp" />
     <ClCompile Include="Grids.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="Minesweeper.cpp" />
@@ -141,7 +141,8 @@
     <ClInclude Include="ConsoleColors.h" />
     <ClInclude Include="Difficulty.h" />
     <ClInclude Include="DifficultyType.h" />
-    <ClInclude Include="Game.h" />
+    <ClInclude Include="Minesweeper.h" />
+    <ClInclude Include="State.h" />
     <ClInclude Include="GameState.h" />
     <ClInclude Include="Grids.h" />
     <ClInclude Include="Input.h" />
