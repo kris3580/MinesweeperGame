@@ -1,0 +1,27 @@
+CXX = cl
+
+CXXFLAGS = /EHsc /W4
+
+TARGET = Minesweeper.exe
+
+SRCS = Difficulty.cpp Grids.cpp Input.cpp Minesweeper.cpp Random.cpp State.cpp
+
+HDRS = Cell.h CellType.h ConsoleColors.h Difficulty.h DifficultyType.h GameState.h Grids.h Input.h Minesweeper.h Random.h State.h
+
+OBJS = $(SRCS:.cpp=.obj)
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CXX) $(OBJS) /Fe$(TARGET)
+
+%.obj: %.cpp $(HDRS)
+	$(CXX) /c $(CXXFLAGS) $< /Fo$@
+
+clean:
+	del /Q *.obj $(TARGET)
+
+run: $(TARGET)
+	./$(TARGET)
+
+.PHONY: all clean run
