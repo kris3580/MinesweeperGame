@@ -5,8 +5,39 @@ Grids::Grids() :
 	gridHidden(), 
 	width(), 
 	height(),
-	bombCount()
+	bombCount() {}
+
+Grids::Grids(int numberOfRows, int numberOfColumns, int numberOfBombs)
+	: gridVisible(nullptr),
+	gridHidden(nullptr),
+	width(numberOfRows),
+	height(numberOfColumns),
+	bombCount(numberOfBombs)
 {
+	InitializeVisibleGrid();
+	InitializeHiddenGrid();
+}
+
+Grids::Grids(const Grids& other)
+	: width(other.width),
+	height(other.height),
+	bombCount(other.bombCount)
+{
+
+	gridVisible = new CellType * [width];
+	gridHidden = new CellType * [width];
+
+	for (int i = 0; i < width; i++)
+	{
+		gridVisible[i] = new CellType[height];
+		gridHidden[i] = new CellType[height];
+
+		for (int j = 0; j < height; j++)
+		{
+			gridVisible[i][j] = other.gridVisible[i][j];
+			gridHidden[i][j] = other.gridHidden[i][j];
+		}
+	}
 }
 
 void Grids::InitializeGridInfo(int numberOfRows, int numberOfColumns, int numberOfBombs)
@@ -542,4 +573,39 @@ int Grids::CheckBottomRightForBomb(int i, int j)
 	if (gridHidden[i + 1][j + 1] == CellType::Bomb) return 1;
 	else return 0;
 }
+
+Grids& Grids::operator=(const Grids& other)
+{
+	if (this == &other) {
+		return *this;
+	}
+	
+	width = other.width;
+	height = other.height;
+	bombCount = other.bombCount;
+
+	gridVisible = new CellType * [width];
+	gridHidden = new CellType * [width];
+
+	for (int i = 0; i < width; i++)
+	{
+		gridVisible[i] = new CellType[height];
+		gridHidden[i] = new CellType[height];
+
+		for (int j = 0; j < height; j++)
+		{
+			gridVisible[i][j] = other.gridVisible[i][j];
+			gridHidden[i][j] = other.gridHidden[i][j];
+		}
+	}
+
+	return *this;
+}
+
+bool Grids::operator==(const Grids& other) const
+{
+	return gridVisible == other.gridVisible && gridHidden == other.gridHidden && width == other.width && height == other.height && bombCount == other.bombCount;
+}
+
+
 

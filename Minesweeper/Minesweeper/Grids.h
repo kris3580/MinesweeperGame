@@ -46,6 +46,10 @@ private:
 public:
 	Grids();
 
+	Grids(int numberOfRows, int numberOfColumns, int numberOfBombs);
+
+	Grids(const Grids& other);
+
 	void InitializeGridInfo(int numberOfRows, int numberOfColumns, int numberOfBombs);
 
 	void InitializeVisibleGrid();
@@ -59,4 +63,10 @@ public:
 	void ClickCell(Cell cell);
 
 	CellType** GetGrid(char gridType);
+
+	Grids& operator=(const Grids& other);
+
+	bool operator==(const Grids& other) const;
+
+
 };

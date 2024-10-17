@@ -1,9 +1,30 @@
 #pragma once
 
-void EndGame();
+#include "Difficulty.h"
+#include "Grids.h"
+#include "State.h"
 
-void DisplayGame(Grids& grids);
+class Minesweeper {
+public:
+    Minesweeper();
 
-void GameCycle(Grids& grids);
+    Minesweeper(Difficulty& d, Grids& g);
 
-void InitializeGame(Grids& grids, Difficulty& difficulty);
+    Minesweeper(const Minesweeper& other);
+
+    void InitializeGame();
+
+    void GameCycle();
+
+    void DisplayGame();
+
+    void EndGame();
+
+private:
+    Grids grids;
+    Difficulty difficulty;
+public:
+    Minesweeper& operator=(const Minesweeper& other);
+
+    bool operator==(const Minesweeper& other) const;
+};

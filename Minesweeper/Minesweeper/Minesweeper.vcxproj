@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="ConsoleColors.cpp" />
     <ClCompile Include="Difficulty.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="State.cpp" />
     <ClCompile Include="Grids.cpp" />
     <ClCompile Include="Input.cpp" />
@@ -136,6 +137,7 @@
     <ClCompile Include="Random.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractState.h" />
     <ClInclude Include="Cell.h" />
     <ClInclude Include="CellType.h" />
     <ClInclude Include="ConsoleColors.h" />

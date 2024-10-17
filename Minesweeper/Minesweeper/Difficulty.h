@@ -5,23 +5,34 @@
 
 class Difficulty 
 {
-private:
-	int rowsDifficulty[3];
-
-	int columnsDifficulty[3];
-
-	int bombNumberPerDifficulty[3];
-
-	DifficultyType chosenDifficulty;
-
 public:
-	Difficulty();
+    Difficulty();
 
-	void ChooseDifficulty();
+    Difficulty(int rows[3], int columns[3], int bombs[3], DifficultyType difficulty);
 
-	int GetRowDifficulty();
+    Difficulty(const Difficulty& other);
 
-	int GetColumnDifficulty();
+    int rowsDifficulty[3];
 
-	int GetBombCountDifficulty();
+    int columnsDifficulty[3];
+
+    int bombNumberPerDifficulty[3];
+
+    DifficultyType chosenDifficulty;
+
+    void ChooseDifficulty();
+
+    int GetRowDifficulty() const;
+
+    int GetColumnDifficulty() const;
+
+    int GetBombCountDifficulty() const;
+
+    Difficulty& operator=(const Difficulty& other);
+
+    bool operator==(const Difficulty& other) const;
 };
+
+std::istream& operator>>(std::istream& in, Difficulty& difficulty);
+
+std::ostream& operator<<(std::ostream& out, const Difficulty& difficulty);

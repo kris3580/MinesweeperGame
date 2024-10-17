@@ -1,61 +1,47 @@
 #include <iostream>
-#include "Difficulty.h"
-#include "Grids.h"
-#include "Random.h"
-#include "Input.h"
-#include <cstdlib> 
-#include "State.h";
+#include <cstdlib>
 #include "Minesweeper.h"
+#include "Input.h"
 
-
-
-int main()
-{
-    Difficulty difficulty;
-    Grids grids;
-    
-    InitializeGame(grids, difficulty);
-    GameCycle(grids);
-
-    DisplayGame(grids);
-    EndGame();
+Minesweeper::Minesweeper() {
+    difficulty = Difficulty();
+    grids = Grids();
 }
 
+Minesweeper::Minesweeper(Difficulty& d, Grids& g) : difficulty(d), grids(g) {
+    InitializeGame();
+}
 
+Minesweeper::Minesweeper(const Minesweeper& other)
+    : grids(other.grids), difficulty(other.difficulty) {
+}
 
-
-void InitializeGame(Grids& grids, Difficulty& difficulty)
-{
+void Minesweeper::InitializeGame() {
     difficulty.ChooseDifficulty();
     grids.InitializeGridInfo(difficulty.GetRowDifficulty(), difficulty.GetColumnDifficulty(), difficulty.GetBombCountDifficulty());
     grids.InitializeHiddenGrid();
     grids.InitializeVisibleGrid();
 }
 
-void GameCycle(Grids& grids)
-{
-    while (State::gameState == GameState::Ongoing)
-    {
-        DisplayGame(grids);
+void Minesweeper::GameCycle() {
+    while (State::gameState == GameState::Ongoing) {
+        DisplayGame();
         grids.ClickCell(Input::GetCoordinates());
         grids.CheckForWin();
-
     }
 }
 
-void DisplayGame(Grids& grids)
-{
+void Minesweeper::DisplayGame() {
     system("cls");
-    //grids.ShowGrid(grids.GetGrid('h'));
-    std::cout << std::endl; std::cout << std::endl; std::cout << std::endl;
+    std::cout << std::endl;
+    std::cout << std::endl;
+    std::cout << std::endl;
     grids.ShowGrid(grids.GetGrid('v'));
     std::cout << std::endl;
 }
 
-void EndGame()
-{
-    switch (State::gameState)
-    {
+void Minesweeper::EndGame() {
+    switch (State::gameState) {
     case GameState::Won:
         std::cout << "Ai castigat!"; break;
     case GameState::Lost:
@@ -63,4 +49,15 @@ void EndGame()
     }
 }
 
+Minesweeper& Minesweeper::operator=(const Minesweeper& other) {
+    if (this != &other) {
+        grids = other.grids;
+        difficulty = other.difficulty; 
+    }
+    return *this;
+}
 
+bool Minesweeper::operator==(const Minesweeper& other) const
+{
+    return grids == other.grids && difficulty == other.difficulty;
+}
